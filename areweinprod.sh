@@ -60,7 +60,6 @@ function isMonitoredCommand(){
 }
 
 pre_validation() {
-  echo $1
   quit="y"
   should_validate="n"
   [[ $# -eq 0 ]] && return
